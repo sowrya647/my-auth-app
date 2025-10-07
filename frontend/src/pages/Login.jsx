@@ -14,7 +14,7 @@ function Login() {
     }
 
     try {
-      const response = await fetch("https://my-auth-app-v7lr.onrender.com0/login", {
+      const response = await fetch("https://my-auth-app-v7lr.onrender.com/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
